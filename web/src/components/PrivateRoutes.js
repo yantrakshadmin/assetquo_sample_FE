@@ -7,7 +7,7 @@ import {NotFound404Screen} from 'screens/404.screen';
 
 export const PrivateRoutes = ({routes, extraRoutes, user, outerRoutes}) => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Redirect path="/" user={user} />
 
       {outerRoutes
