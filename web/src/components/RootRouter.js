@@ -19,7 +19,7 @@ const RootRouter = ({user}) => {
     switch (user.type) {
       case 'public':
         return (
-          <Router>
+          <Router basename={process.env.PUBLIC_URL}>
             {publicRoutes.map((Route, index) => {
               return <Route.Component path={Route.path} key={index.toString()} />;
             })}
