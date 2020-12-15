@@ -52,6 +52,7 @@
       "last 1 safari version"
     ]
   },
+  "homepage": "https://yantrakshadmin.github.io/assetquo_sample_FE/",
   "devDependencies": {
     "babel-plugin-import": "^1.13.0",
     "babel-plugin-transform-remove-console": "^6.9.4",
