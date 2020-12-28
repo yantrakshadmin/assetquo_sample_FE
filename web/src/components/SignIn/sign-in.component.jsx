@@ -108,11 +108,11 @@ const SignIn = ({user}) => {
   }
   return (
     <div className="intro">
-      <h1>Welcome to Yantra Packs</h1>
+      <h1>Welcome to AssteQuo</h1>
       <br />
       <div className="content">
-        Yantra Packs provide sustainable material handling equipment solutions to Auto,
-        FMCG,Chemical and Industrial/ Manufacturing companies to help them store and distribute
+        AssetQuo provide sustainable material handling equipment solutions to Auto,
+        FMCG, Chemical and Industrial/ Manufacturing companies to help them store and distribute
         goods efficiently, helping them to boost profitability and increase efficiency.
       </div>
       <br /> <br />
